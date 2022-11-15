@@ -1,7 +1,10 @@
 name: telegram_bot_dart
-description: A sample command-line application.
-version: 1.0.0
-# homepage: https://www.example.com
+description: A sample command-line application. 
+version: 0.0.0
+homepage: https://youtube.com/@azkadev
+repository: https://github.com/azkadev/menfess_telegram_bot_dart
+issue_tracker: https://github.com/azkadev/menfess_telegram_bot_dart 
+
 
 environment:
   sdk: '>=2.18.0 <3.0.0'
@@ -14,6 +17,6 @@ dev_dependencies:
   test: ^1.16.0
 dependencies:
   alfred: ^0.1.7
-  galaxeus_lib: ^0.0.20
+  galaxeus_lib: ^0.0.27
   path: ^1.8.2
-  telegram_client: ^0.3.64
+  telegram_client: ^0.3.71
