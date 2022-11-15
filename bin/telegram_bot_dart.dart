@@ -23,9 +23,9 @@ void main(List<String> arguments) async {
   telegramBotApiServer.run(
     executable: "./telegram_bot_api",
     arguments: telegramBotApiServer.optionsParameters(
-      apiid: "3945474",
-      apihash: "200e85971cc662a40385e0e60c7f7fac",
-      httpport: "9000",
+      api_id: 0,
+      api_hash: "",
+      http_port: "9000",
       dir: dir_bot_api.path,
     ),
   );
